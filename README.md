@@ -19,6 +19,6 @@ Later you can update the submodules with:
 ```
 $ git submodule update --remote --merge
 ```
-Here is a documentation how Git manages submodules [git submodules](http://git-scm.com/book/en/v2/Git-Tools-Submodules).
+Here is a documentation how Git manages submodules [Git Tools - Submodules](http://git-scm.com/book/en/v2/Git-Tools-Submodules).
 
 ---------------
