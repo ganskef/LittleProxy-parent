@@ -37,7 +37,7 @@ This is the parent container to organize modules.</description>
 	</modules>
 
 	<scm>
-		<connection>scm:git:https://ganskef@github.com/adamfisk/LittleProxy-parent.git</connection>
+		<connection>scm:git:https://ganskef@github.com/ganskef/LittleProxy-parent.git</connection>
 		<developerConnection>scm:git:git@github.com:ganskef/LittleProxy-parent</developerConnection>
 		<url>scm:git:git@github.com:ganskef/LittleProxy-parent.git</url>
 	</scm>
