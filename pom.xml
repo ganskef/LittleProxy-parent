@@ -1,0 +1,55 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<github.global.server>github</github.global.server>
+		<javac.target>1.6</javac.target>
+		<skipTests>false</skipTests>
+	</properties>
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>org.littleshoot</groupId>
+	<artifactId>littleproxy-parent</artifactId>
+	<version>1.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<name>LittleProxy - Parent</name>
+	<description>LittleProxy is a high performance HTTP proxy written in Java and using the Netty networking framework.
+
+This is the parent container to organize modules.</description>
+
+	<organization>
+		<name>LittleShoot</name>
+		<url>http://littleproxy.org</url>
+	</organization>
+
+	<licenses>
+		<license>
+			<name>The Apache Software License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0</url>
+		</license>
+	</licenses>
+
+	<modules>
+		<module>LittleProxy</module>
+		<module>LittleProxy-mitm</module>
+	</modules>
+
+	<scm>
+		<connection>scm:git:https://ganskef@github.com/adamfisk/LittleProxy-parent.git</connection>
+		<developerConnection>scm:git:git@github.com:ganskef/LittleProxy-parent</developerConnection>
+		<url>scm:git:git@github.com:ganskef/LittleProxy-parent.git</url>
+	</scm>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-release-plugin</artifactId>
+				<version>2.5</version>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>
