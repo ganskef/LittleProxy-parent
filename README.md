@@ -5,7 +5,7 @@ LittleProxy-parent is a container to build the Man-In-The-Middle extension in co
 Use LittleProxy-mitm with the following commands:
 
 ```
-$ git clone git://github.com/ganskef/LittleProxy-parent.git --recurse-submodules
+$ git clone git://github.com/ganskef/LittleProxy-parent.git
 $ cd LittleProxy-parent
 $ mvn clean install
 $ cd LittleProxy-mitm/target
@@ -13,12 +13,5 @@ $ java -jar littleproxy-mitm-1.1.0-beta1-SNAPSHOT-shade.jar
 $ curl -k -x localhost:9090 https://www.google.com/humans.txt
 ```
 Please refer the documentation of [LittleProxy](https://github.com/adamfisk/LittleProxy) and [LittleProxy-mitm](https://github.com/ganskef/LittleProxy-mitm).
-
-Later you can update the submodules with:
-
-```
-$ git submodule update --remote --merge
-```
-Here is a documentation how Git manages submodules [Git Tools - Submodules](http://git-scm.com/book/en/v2/Git-Tools-Submodules).
 
 ---------------
