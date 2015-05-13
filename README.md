@@ -5,7 +5,7 @@ LittleProxy-parent is a container to build the Man-In-The-Middle extension in co
 Use LittleProxy-mitm with the following commands:
 
 ```
-$ git clone git://github.com/ganskef/LittleProxy-parent.git
+$ git clone git://github.com/ganskef/LittleProxy-parent.git --recurse-submodules
 $ cd LittleProxy-parent
 $ mvn clean install
 $ cd LittleProxy-mitm/target
