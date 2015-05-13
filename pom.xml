@@ -32,6 +32,7 @@ This is the parent container to organize modules.</description>
 	</licenses>
 
 	<modules>
+		<module>update</module>
 		<module>LittleProxy</module>
 		<module>LittleProxy-mitm</module>
 	</modules>

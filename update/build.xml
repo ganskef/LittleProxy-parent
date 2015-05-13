@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="LittleProxy-update" default="update">
+	<description>
+		This is a tooling script to update submodules, used by the Maven build.
+    </description>
+
+	<target name="update" depends="" description="Update LittleProxy modules.">
+		<apply executable="git" verbose="true" dir="${basedir}/..">
+			<dirset dir="${basedir}/.." includes="LittleProxy*" />
+			<arg value="submodule" />
+			<arg value="init" />
+			<srcfile />
+		</apply>
+		<exec executable="git" dir="${basedir}/..">
+			<arg value="submodule" />
+			<arg value="update" />
+			<arg value="--remote" />
+			<arg value="--merge" />
+		</exec>
+	</target>
+
+</project>
