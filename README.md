@@ -12,6 +12,6 @@ $ cd LittleProxy-mitm/target
 $ java -jar littleproxy-mitm-1.1.0-beta1-SNAPSHOT-shade.jar
 $ curl -k -x localhost:9090 https://www.google.com/humans.txt
 ```
-Please refer the documentation of [LittleProxy](https://github.com/adamfisk/LittleProxy) and [LittleProxy-mitm](https://github.com/ganskef/LittleProxy-mitm).
+Please refer the documentation of [LittleProxy](https://github.com/ganskef/LittleProxy) and [LittleProxy-mitm](https://github.com/ganskef/LittleProxy-mitm).
 
 -------
