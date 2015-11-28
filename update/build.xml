@@ -5,6 +5,12 @@
     </description>
 
 	<target name="update" depends="" description="Update LittleProxy modules.">
+		<apply executable="git" verbose="true" dir="${basedir}/..">
+			<dirset dir="${basedir}/.." includes="LittleProxy*" />
+			<arg value="submodule" />
+			<arg value="init" />
+			<srcfile />
+		</apply>
 		<exec executable="git" dir="${basedir}/..">
 			<arg value="submodule" />
 			<arg value="update" />
