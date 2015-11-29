@@ -5,6 +5,7 @@
     </description>
 
 	<target name="update" depends="" description="Update LittleProxy modules.">
+		<!--
 		<apply executable="git" verbose="true" dir="${basedir}/..">
 			<dirset dir="${basedir}/.." includes="LittleProxy*" />
 			<arg value="submodule" />
@@ -14,9 +15,10 @@
 		<exec executable="git" dir="${basedir}/..">
 			<arg value="submodule" />
 			<arg value="update" />
-			<arg value="--remote" />
-			<arg value="--merge" />
+			<arg value="- -remote" />
+			<arg value="- -merge" />
 		</exec>
+		-->
 	</target>
 
 </project>
