@@ -1,6 +1,6 @@
 [submodule "LittleProxy"]
 	path = LittleProxy
-	url = https://github.com/ganskef/LittleProxy
+	url = https://github.com/ganskef/LittleProxy.git
 [submodule "LittleProxy-mitm"]
 	path = LittleProxy-mitm
-	url = https://github.com/ganskef/LittleProxy-mitm
+	url = https://github.com/ganskef/LittleProxy-mitm.git
