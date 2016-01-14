@@ -1,8 +1,8 @@
 [![Build Status](https://travis-ci.org/ganskef/LittleProxy-parent.png?branch=master)](https://travis-ci.org/ganskef/LittleProxy-parent)
 
-LittleProxy-parent is a container to build the Man-In-The-Middle extension in conjunction with [LittleProxy](https://github.com/adamfisk/LittleProxy). Now the dependencies should be found to automate within Travis CI. LittleProxy-mitm needs a modified version [ganskef/LittleProxy](https://github.com/ganskef/LittleProxy).
+LittleProxy-parent is a container to build the Man-In-The-Middle extension in conjunction with a patched version of [LittleProxy](https://github.com/adamfisk/LittleProxy) with additional offline features enabled. It's not longer needed to build the master branch of [ganskef/LittleProxy-mitm](https://github.com/ganskef/LittleProxy-mitm).
 
-Use LittleProxy-mitm with the following commands:
+Use the enable_offline_caching_with_mitm branches of [LittleProxy](https://github.com/ganskef/LittleProxy/tree/enable_offline_caching_with_mitm) and [LittleProxy-mitm](https://github.com/ganskef/LittleProxy-mitm/tree/enable_offline_caching_with_mitm) with the following commands:
 
 ```
 $ git clone git://github.com/ganskef/LittleProxy-parent.git --recurse-submodules
