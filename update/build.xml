@@ -13,11 +13,12 @@
 			<srcfile />
 		</apply>
 		-->
+                <exec executable="git" dir="${basedir}/..">
+                        <arg value="pull" />
+                </exec>
 		<exec executable="git" dir="${basedir}/..">
 			<arg value="submodule" />
 			<arg value="update" />
-			<arg value="--remote" />
-			<arg value="--merge" />
 		</exec>
 	</target>
 
