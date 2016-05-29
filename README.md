@@ -9,7 +9,7 @@ $ git clone git://github.com/ganskef/LittleProxy-parent.git --recurse-submodules
 $ cd LittleProxy-parent
 $ mvn clean install
 $ cd LittleProxy-mitm/target
-$ java -jar littleproxy-mitm-1.1.0-beta1-SNAPSHOT-shade.jar
+$ java -jar littleproxy-mitm-1.1.1-offline-shade.jar
 $ curl -k -x localhost:9090 https://www.google.com/humans.txt
 ```
 Please refer to the documentation of [LittleProxy](https://github.com/ganskef/LittleProxy) and [LittleProxy-mitm](https://github.com/ganskef/LittleProxy-mitm).
